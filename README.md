@@ -21,8 +21,7 @@ db.Movies.insertMany([
 db.Books.find({}).pretty() # run this command to see if the documents got inserted into the database
 ```
 
-The web API uses the default local connection string __mongodb://localhost:27017__
-Assuming this property hasn't been changed, you can run the project and start using the API at https://localhost:44326/api/movies/
+The web API uses the default local connection string __mongodb://localhost:27017__. Assuming this property hasn't been changed, you can run the project and start using the API at https://localhost:44326/api/movies/
 
 ### The API supports the following operations:
 - __GET__ at /api/movies/ - to get all movies
